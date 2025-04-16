@@ -1,5 +1,6 @@
-﻿using Android.App;
+using Android.App;
 using Android.Runtime;
+using Firebase;
 
 namespace BlazorNotify
 {
@@ -12,5 +13,11 @@ namespace BlazorNotify
         }
 
         protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+
+        public override void OnCreate()
+        {
+            base.OnCreate();
+            FirebaseApp.InitializeApp(this);
+        }
     }
 }
