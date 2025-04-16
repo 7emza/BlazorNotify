@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "42985173225",
+    "project_id": "blazornotify",
+    "storage_bucket": "blazornotify.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42985173225:android:e16dff50f1c5cf29e90078",
+        "android_client_info": {
+          "package_name": "com.companyname.blazornotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNeC5GHEn0znbD3LeJawrnibY1DpA3xGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
